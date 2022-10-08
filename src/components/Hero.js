@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="container mx-auto  h-full relative">
         <div className=" flex flex-col xl:flex-row items-center h-full md:py-24">
           {/* text */}
-          <div className="text-center xl:text-left xl:absolute">
+          <div className="text-center xl:text-left xl:absolute z-10">
             <h1
               className="h1 xl:max-w-[700px] mb-6 xl:mb-12"
               data-aos="fade-down"
@@ -36,7 +36,7 @@ const Hero = () => {
           </div>
           {/* img */}
           <div
-            className="xl:absolute xl:-right-12 xl:bottom-16"
+            className="xl:absolute xl:-right-12 "
             data-aos="fade-up"
             data-aos-delay="700"
           >
